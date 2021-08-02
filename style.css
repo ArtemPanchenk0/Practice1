@@ -1,0 +1,133 @@
+@charset "utf-8"
+body {
+	margin: 0;
+	font-family: Arial,sans-serif;
+	font-size: 16px;
+	color: #121212;
+}
+.page {
+	width: 800px;
+	margin: 20px auto;
+
+}
+
+/*Header*/
+
+.header {
+	padding: 20px;
+	background-color: #121212;
+}
+.header-title {
+	margin: 0;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+
+}
+.header-subtitle {
+	margin: 0;
+	font-size: 18px;
+	color: #56b6fb;
+	text-align: center;
+	font-weight: 400;
+}
+
+/*Nav*/
+.nav {
+	text-align: center;
+}
+.nav-link {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #121212;
+}
+.nav-link:hover {
+	background-color: #eee;
+}
+/*.image {
+	width: 800px;
+	height: 600px;
+	border: 1px solid black;
+	background: url("../img/Statue.jpg") no-repeat center;
+	background-size: cover;
+}*/
+
+/*Content*/
+
+.content {
+	padding: 0 20px 20px 20px;
+}
+.content P {
+/*text-indent: 20PX;*/
+}
+
+.content-title {
+	font-size: 20px;
+	margin: 0;
+	color: red;
+	margin-top: 10px;
+}
+
+.content-text {
+	padding-top: 10px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.content-link {
+	text-decoration: none;
+	color: #1d7abe;
+	padding: 20px 0 0 0;
+}
+.content-link:hover {
+	text-decoration: underline;
+}
+
+/*Article*/
+
+.articles {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.article-title {
+	font-size: 20px;
+	margin: 0 0 5px;
+	padding: 10px 0 0 0;
+	color: blue;
+
+}
+.article-title a {
+	text-decoration: none;
+	color: inherit; /*Наследование цвета от родителя*/
+}
+.article-title a:hover {
+	text-decoration: underline;
+}
+.article-data {
+	padding: 0 0 0 0;
+	color: #a4a4a4;
+}
+.article-text {
+	padding-top: 10px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+/*Video*/
+
+.video-content {
+	width: 350px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #121212;
+	margin: 5px;
+}
+.vedeo-contenttext {
+}
+/*Footer*/
+.footer {
+	padding: 20px;
+	background-color: #121212;
+	color: #fff;
+	text-align: right;
+}
