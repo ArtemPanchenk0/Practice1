@@ -1,78 +1,85 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Simple page</title>
 </head>
 <body>
 	<div class="page">
-		<div class="header">
-			<h1 class="header-title">My site</h1>
+		<header class="header">
+			<h1 class="header-title">Example site</h1>
 			<h1 class="header-subtitle">Welcome!</h1>
-		</div>
+		</header>
 		
-		<div class="nav">
+		<nav class="nav">
 			<a class="nav-link" href="#">Shief</a>
 			<a class="nav-link" href="#">News</a>
 			<a class="nav-link" href="#">Video</a>
 			<a class="nav-link" href="#">About avtor</a>
-		</div>
+		</nav>
 
-		<img src="Statue.jpg" width="800px" alt="">
+		
 
-		<div class="content">
-			<h3 class="content-title">News</h3>
+		<div class="container">
 
-			<div class="articles">
-				<h4 class="article-title">
-					<a href="#" target="blank">Title news</a>
-				</h4>
-				<div class="article-data">data publication - 02.08.2021</div>
-				<div class="article-text">
+			<main class="content">
+				<img class="content-img" src="img/Statue.jpg" alt="img">
+				<h3 class="content-title">News</h3>
+
+				<article class="articles">
+					<h4 class="article-title">
+						<a href="#" target="blank">Title news</a>
+					</h4>
+					<time class="article-data" datetime="02-08-2021">Yesterday in 20:21</time>
+					<div class="article-text">
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quo totam omnis dolorem sequi. Accusamus a cumque, eos voluptates qui dolore quasi autem inventore distinctio possimus odit, laudantium asperiores officia. Quibusdam? ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, exercitationem. Eaque, minima debitis ipsum, quas repellendus commodi beatae! Exercitationem esse, pariatur ducimus nemo deleniti non voluptatem numquam sunt ullam veritatis.
+						</p>
+						<a class="content-link" href="#">Read completely</a>
+					</div>
+				</article>
+				<article class="articles">
+					<h4 class="article-title">
+						<a href="#" target="blank">Title news</a>
+					</h4>
+					<time class="article-data" datetime="02-08-2021">Yesterday in 20:21</time>
+					<div class="article-text">
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quo totam omnis dolorem sequi. Accusamus a cumque, eos voluptates qui dolore quasi autem inventore distinctio possimus odit, laudantium asperiores officia. Quibusdam? ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, exercitationem. Eaque, minima debitis ipsum, quas repellendus commodi beatae! Exercitationem esse, pariatur ducimus nemo deleniti non voluptatem numquam sunt ullam veritatis.
+						</p>
+						<a class="content-link" href="#">Read completely</a>
+					</div>
+				</article>
+
+				<h3 class="content-title">Video</h3>
+				<div class="video-content">
+					<div class="vedeo-contenttext">Video1</div>
+				</div>
+				<div class="video-content">
+					<div class="vedeo-contenttext">Video2</div>
+				</div>
+				<div class="video-content">
+					<div class="vedeo-contenttext">Video3</div>
+				</div>
+				<div class="video-content">
+					<div class="vedeo-contenttext">Video4</div>
+				</div>
+			</main>
+			<aside class="sidebar">
+				<h3 class="sidebar-title">About avtor</h3>
+				<img class="sidebar-img" src="img/1.png" alt="autor">
+				<div class="sidebar-text">
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quo totam omnis dolorem sequi. Accusamus a cumque, eos voluptates qui dolore quasi autem inventore distinctio possimus odit, laudantium asperiores officia. Quibusdam? ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, exercitationem. Eaque, minima debitis ipsum, quas repellendus commodi beatae! Exercitationem esse, pariatur ducimus nemo deleniti non voluptatem numquam sunt ullam veritatis.
 					</p>
 					<a class="content-link" href="#">Read completely</a>
 				</div>
-			</div>
-			<div class="articles">
-				<h4 class="article-title">
-					<a href="#" target="blank">Title news</a>
-				</h4>
-				<div class="article-data">data publication - 02.08.2021</div>
-				<div class="article-text">
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quo totam omnis dolorem sequi. Accusamus a cumque, eos voluptates qui dolore quasi autem inventore distinctio possimus odit, laudantium asperiores officia. Quibusdam? ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, exercitationem. Eaque, minima debitis ipsum, quas repellendus commodi beatae! Exercitationem esse, pariatur ducimus nemo deleniti non voluptatem numquam sunt ullam veritatis.
-					</p>
-					<a class="content-link" href="#">Read completely</a>
-				</div>
-			</div>
-
-			<h3 class="content-title">Video</h3>
-			<div class="video-content">
-				<div class="vedeo-contenttext">Video1</div>
-			</div>
-			<div class="video-content">
-				<div class="vedeo-contenttext">Video2</div>
-			</div>
-			<div class="video-content">
-				<div class="vedeo-contenttext">Video3</div>
-			</div>
-			<div class="video-content">
-				<div class="vedeo-contenttext">Video4</div>
-			</div>
-			<h3 class="content-title">About avtor</h3>
-			<div class="content-text">
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quo totam omnis dolorem sequi. Accusamus a cumque, eos voluptates qui dolore quasi autem inventore distinctio possimus odit, laudantium asperiores officia. Quibusdam? ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, exercitationem. Eaque, minima debitis ipsum, quas repellendus commodi beatae! Exercitationem esse, pariatur ducimus nemo deleniti non voluptatem numquam sunt ullam veritatis.
-				</p>
-				<a class="content-link" href="#">Read completely</a>
-			</div>
-
+			</aside>
 		</div>
-		<div class="footer">
+
+		<footer class="footer">
 			@ Copyright Artem Panchenko 2021
-		</div>
+		</footer>
 	</div>
 </body>
 </html>
